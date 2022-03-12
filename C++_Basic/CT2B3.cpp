@@ -2,5 +2,8 @@
 using namespace std;
 
 int main(){
-	cout<< 66-6+7+23-18+2;
+    long long n ; cin >> n;
+    for(long long i=1;i<=sqrt(n);i++){
+        if(i*i<=n) cout << i*i<<" ";
+    }
 }
